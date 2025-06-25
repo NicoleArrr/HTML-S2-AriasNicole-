@@ -1,12 +1,34 @@
+@font-face {
+  font-family: 'boldFont';
+  src: url(/Dia4/fonts/AmazonEmber_Bd.ttf);
+}
+
 body {
     background-image: url(/Dia4/recursos/backgroundPicture.png);
-    background-color: black;
+    position: static;
+    max-width: 100%;
+    align-content: center;
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+    margin: 0px;
+}
+
+.textoBlanco {
+    font-family: 'boldFont';
+    font-size: ;
+    color: white;
+    text-align: center;
+    margin-left: ;
+}
+
+.Parte1 {
+    background-color: aqua;
+    border-radius: 45px;
+    margin-inline-start:  ;
+}
+
+lupita {
     
 }
-
-textoBlanco {
-    color: white
-}
-
-
 
