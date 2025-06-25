@@ -3,6 +3,11 @@
   src: url('/Dia4/fonts/AmazonEmber_Bd.ttf');
 }
 
+@font-face {
+    font-family: 'lightFont';
+    src: url('/Dia4/fonts/AmazonEmber_Lt.ttf');
+}
+
 body {
     background: transparent url(./../recursos/FondoTwitch.png) 0% 0% no-repeat padding-box;;
     position: absolute;
@@ -11,9 +16,11 @@ body {
     width: 1920px;
     height: 1080px;
     background-repeat: no-repeat;
+    background-color: black;
+    color: white;
 }
 
-.textoBlanco {
+.textoPortada1 {
     top: 517px;
     left: 389px;
     width: 1151px;
@@ -23,7 +30,22 @@ body {
     position: absolute;
 }
 
+.textoPortada2 {
+    top: 608px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    position: absolute;
+}
+.Prime {
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
 
+}
 
 .Seccion1 {
     background-color: aqua;
@@ -43,4 +65,23 @@ lupita {
 }
 #Pc{
 
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
 }
