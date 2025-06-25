@@ -1,34 +1,45 @@
 @font-face {
   font-family: 'boldFont';
-  src: url(/Dia4/fonts/AmazonEmber_Bd.ttf);
+  src: url('/Dia4/fonts/AmazonEmber_Bd.ttf');
 }
 
 body {
-    background-image: url(/Dia4/recursos/backgroundPicture.png);
-    position: static;
-    max-width: 100%;
-    align-content: center;
-    text-align: center;
-    background-size: cover;
-    justify-content: center;
-    margin: 0px;
+    background: transparent url(./../recursos/FondoTwitch.png) 0% 0% no-repeat padding-box;;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background-repeat: no-repeat;
+
 }
 
 .textoBlanco {
+    top: 517px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    color: #FFFFFF;
     font-family: 'boldFont';
-    font-size: ;
-    color: white;
-    text-align: center;
-    margin-left: ;
+    position: absolute;
 }
 
-.Parte1 {
+.Seccion1 {
     background-color: aqua;
     border-radius: 45px;
-    margin-inline-start:  ;
 }
 
 lupita {
-    
+    background-image: url(/Dia4/recursos/Lupita.png);
+    background: transparent;
 }
 
+#Cel{
+
+}
+#Mac{
+
+}
+#Pc{
+
+}
