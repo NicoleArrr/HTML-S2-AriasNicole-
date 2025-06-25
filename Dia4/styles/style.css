@@ -28,25 +28,32 @@ body {
     color: #FFFFFF;
     font-family: 'boldFont';
     position: absolute;
+    text-align: left;
+    font-size: 60px;
 }
 
 .textoPortada2 {
+    font-family: 'lightFont';
     top: 608px;
     left: 380px;
     width: 1160px;
     height: 102px;
     position: absolute;
+    text-align: center;
+    font-size: 30px;
 }
 .Prime {
     position: absolute;
-    top: 1106px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
-    background: transparent url('img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    background: transparent url('./../recursos/Prime.png') 0% 0% no-repeat padding-box;
+    line-height: 36px;
 
 }
 
+/* 
 .Seccion1 {
     background-color: aqua;
     border-radius: 45px;
@@ -65,8 +72,8 @@ lupita {
 }
 #Pc{
 
-}
-
+} */
+/* 
 
 header{
     display: flex;
@@ -84,4 +91,4 @@ header{
     width: 12rem;
     height: 3rem;
     border-radius: 30px;
-}
+} */
