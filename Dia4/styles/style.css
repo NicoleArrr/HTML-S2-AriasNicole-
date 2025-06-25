@@ -66,18 +66,22 @@ body {
     border: 1px solid #000000;
     text-align: center;
     line-height: 90px;
-    font-family: lightFont;
+    font-family: 'lightFont';
 }
 
-/* 
+
 .Seccion1 {
     background-color: aqua;
     border-radius: 45px;
 }
 
-lupita {
-    background-image: url(/Dia4/recursos/Lupita.png);
-    background: transparent;
+.lupita {
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('./../recursos/Lupita.png') 0% 0% no-repeat padding-box;
+    position: absolute;
 }
 
 #Cel{
@@ -88,8 +92,8 @@ lupita {
 }
 #Pc{
 
-} */
-/* 
+}
+
 
 header{
     display: flex;
@@ -99,12 +103,17 @@ header{
 }
 
 .login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
-    width: 12rem;
-    height: 3rem;
-    border-radius: 30px;
-} */
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 52px;
+    background-color: #FFFFFF;
+    font-family: 'lightFont';
+    color: #000000;
+    line-height: 50px;
+    border: 1px solid #000000
+}
