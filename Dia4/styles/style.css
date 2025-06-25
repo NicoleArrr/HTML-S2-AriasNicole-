@@ -42,6 +42,7 @@ body {
     text-align: center;
     font-size: 30px;
 }
+
 .Prime {
     position: absolute;
     top: 227px;
@@ -51,6 +52,21 @@ body {
     background: transparent url('./../recursos/Prime.png') 0% 0% no-repeat padding-box;
     line-height: 36px;
 
+}
+
+.Sign-UpButton {
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    border-radius: 52px;
+    font-size: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 90px;
+    font-family: lightFont;
 }
 
 /* 
