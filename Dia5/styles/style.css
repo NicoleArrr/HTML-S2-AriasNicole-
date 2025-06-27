@@ -13,11 +13,17 @@
   left: 0px;
   width: 1600px;
   height: 1200px;
+  position: absolute;
   background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
 }
 .background1 {
-
+  top: 200px;
+  left: 100px;
+  width: 1400px;
+  height: 800px;
+  position: absolute;
+  background-color: #FFFFFF;
 }
 
 .metrolinea1 {
