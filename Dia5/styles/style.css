@@ -80,7 +80,13 @@
 }
 
 .carrito {
-
+  top: 252px;
+  left: 1324px;
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  background: transparent url('./../recursos/carrito.png') 0% 0% no-repeat padding-box;
+  /*line-height: ;*/
 }
 
 .tarjeta {
