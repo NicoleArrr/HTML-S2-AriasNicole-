@@ -22,16 +22,30 @@
   left: 100px;
   width: 1400px;
   height: 800px;
+  border: 1px solid #707070;
   position: absolute;
   background-color: #FFFFFF;
 }
 
 .metrolinea1 {
-
+  top: 243px;
+  left: 143px;
+  width: 196px;
+  height: 44px;
+  /*line-height: ;*/
+  position: absolute;
+  background: transparent url('./../recursos/metrolinea.png') 0% 0% no-repeat padding-box;
 }
 
 .texto1 {
-
+  top: 240px;
+  left: 800px;
+  width: 230px;
+  height: 41px;
+  position: absolute;
+  font-family: 'RegularFont';
+  font-size: 20px;
+  text-align: left;
 }
 
 .texto2 {
