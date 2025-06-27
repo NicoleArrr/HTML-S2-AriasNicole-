@@ -60,11 +60,17 @@
 }
 
 .underlined {
-
+  top: 303px;
+  left: 841px;
+  width: 146px;
+  height: 0px;
+  position: absolute;
+  /*line-height: ;*/
+  border: 2px solid #212020;
 }
 
 .search {
-
+  
 }
 
 .carrito {
