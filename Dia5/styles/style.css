@@ -44,12 +44,19 @@
   height: 41px;
   position: absolute;
   font-family: 'RegularFont';
-  font-size: 20px;
+  font-size: 30px;
   text-align: left;
 }
 
 .texto2 {
-
+  top: 242px;
+  left: 1072px;
+  width: 132px;
+  height: 41px;
+  position: absolute;
+  font-family: 'RegularFont';
+  font-size: 30px;
+  text-align: left;
 }
 
 .underlined {
