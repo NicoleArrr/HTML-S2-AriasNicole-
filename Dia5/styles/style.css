@@ -70,7 +70,13 @@
 }
 
 .search {
-  
+  top: 252px;
+  left: 1224px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  background: transparent url('./../recursos/lupita.png') 0% 0% no-repeat padding-box;
+  /*line-height: ;*/
 }
 
 .carrito {
