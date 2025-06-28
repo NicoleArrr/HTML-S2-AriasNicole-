@@ -95,7 +95,7 @@
 
 .texto {
   font-family: 'SemiBoldFont';
-  font-size: ;
+  font-size: 30px;
   text-align: left;
   top: 861px;
   left: 158px;
@@ -106,9 +106,9 @@
 
 .precio {
   font-family: 'RegularFont';
-  font-size: ;
+  font-size: 21px;
   text-align: left;
-  top: 924px;
+  top: 910px;
   left: 157px;
   width: 139px;
   height: 37px;
@@ -116,7 +116,14 @@
 }
 
 .comprar {
-
+  font-family: 'RegularFont';
+  font-size: 20px;
+  text-align: right;
+  top: 917px;
+  left: 1205px;
+  width: 111px;
+  height: 36px;
+  position: absolute;
 }
 
 .sidebar {
