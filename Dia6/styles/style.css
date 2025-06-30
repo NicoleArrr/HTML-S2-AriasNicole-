@@ -26,8 +26,14 @@ body, main {
 header {
     display: flex;
     flex-direction: row;
-    list-style: none;
-    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    gap:15vw;
+
+    width: 100vw;
+    height: 5vh;
+
+    background-color: #161414;
 }
 
 /*Navegadores*/
@@ -37,4 +43,3 @@ header nav ul {
     list-style: none;
     gap: 2vw;
 }
-
