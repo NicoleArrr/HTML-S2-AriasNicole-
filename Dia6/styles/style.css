@@ -43,3 +43,12 @@ header nav ul {
     list-style: none;
     gap: 2vw;
 }
+
+button {
+    background-color: darkgoldenrod;
+    color: #000000;
+    height: 4vh;
+    width: 7vw;
+    position: relative;
+}
+
