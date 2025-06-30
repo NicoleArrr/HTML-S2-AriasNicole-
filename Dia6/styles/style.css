@@ -3,6 +3,7 @@
     src: url(./../fonts/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
+/*Página*/
 html, body {
     box-sizing: border-box;
     width: 100%;
@@ -21,4 +22,19 @@ body, main {
     flex-direction: column;
 }
 
+/*Encabezado*/
+header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2vw;
+}
+
+/*Navegadores*/
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2vw;
+}
 
