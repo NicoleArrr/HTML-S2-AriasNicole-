@@ -191,3 +191,14 @@ section5 {
 section5 span {
     color: rgb(227, 174, 104);
 }
+
+/*Pie de página*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*Cambio de color última palabra*/
+footer span {
+    color: rgb(227, 174, 104);
+}
