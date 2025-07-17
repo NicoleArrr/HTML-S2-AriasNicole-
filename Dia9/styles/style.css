@@ -10,9 +10,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    align-content: center;
 
     width: 80%;
+    height: 100%;
+    gap: 3.5rem;
 }
 
 /*Posición del contenido multimedia en los contenedores */
