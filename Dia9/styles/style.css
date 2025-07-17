@@ -1,28 +1,105 @@
+/*General*/
 * {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-
-
-    width: 80%;
     margin: 0;
     padding: 0;
 }
 
-.parteUno {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    gap: 2rem;
+body {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+
+    width: 80%;
 }
 
-.parteDos {
+/*Posición del contenido multimedia en los contenedores */
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+/*Primera División Principal*/
+.parteUno {
+    background-color: black;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     gap: 2rem;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 1rem;
 }
 
+/*Segunda División Principal*/
+.parteDos {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
 
+    width: 100%;
+    height: 100%;
+
+    border-radius: 1rem;
+}
+
+/*Distribución del contenido multimedia en cada contenedor*/
+/*Primera divición de imagen*/
+.img1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+/*Primera divición de video*/
+.vid1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+/*Segunda divición de video*/
+.vid2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+/*Tercera divición de video*/
+.vid3 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*Segunda divición de imagen*/
+.img2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+/*Cuarta divición de video*/
+.vid4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+/*Tercera divición de imagen*/
+.img3 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
