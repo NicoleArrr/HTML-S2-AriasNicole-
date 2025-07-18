@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'boldFont';
-  src: url('/Dia4/fonts/AmazonEmber_Bd.ttf');
+  src: url('/Dia4/fonts/AmazonEmber_Rg.ttf');
 }
 
 @font-face {
@@ -25,6 +25,8 @@
     background: transparent url(./../recursos/nigabackground.png) 0% 0% no-repeat padding-box;
     position: absolute;
 }
+
+a {text-decoration: none; color: black; }
 
 .textoPortada1 {
     top: 517px;
@@ -76,7 +78,6 @@
     font-family: 'lightFont';
 }
 
-
 .Seccion1 {
     top: 1106px;
     left: 64px;
@@ -97,15 +98,7 @@
     position: absolute;
 }
 
-#Cel{
 
-}
-#Mac{
-
-}
-#Pc{
-
-}
 
 
 header{
@@ -141,6 +134,38 @@ header{
     font-family: 'boldFont';
     text-align: left;
 }
+
+.textoRect1 {
+    position: absolute;
+    top: 380px;
+    left: 300px;
+    width: 1250px;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: 'lightFont';
+    text-align: center;
+}
+
+.Seccion2 {
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    position: absolute;
+    background-color: #00A8E1;
+    border-radius: 108px;
+}
+
+#Cel{
+
+}
+#Mac{
+
+}
+#Pc{
+
+}
+
 /* .terminos{
     top: 4088px;
     left: 543px;
