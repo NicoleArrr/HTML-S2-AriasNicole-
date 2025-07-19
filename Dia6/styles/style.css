@@ -157,11 +157,12 @@ section4 {
     gap: ;
 }
 
-section4 div h2 {
+.products {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: ;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
 }
 
 .imgItems {
