@@ -176,6 +176,43 @@ header{
     text-align: center;
 }
 
+.Seccion3 {
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    position: absolute;
+    background-color: #00A8E1;
+    border-radius: 108px;
+}
+
+.titulo3 {
+    position: absolute;
+    left: 500px;
+    color: #FFFFFF;
+    font-family: 'boldFont';
+    font-size: 60px;
+    text-align: center;
+}
+
+.textoRect3 {
+    position: absolute;
+    top: 360px;
+    left: 230px;
+    color: #FFFFFF;
+    font-family: 'lightFont';
+    font-size: 40px;
+    text-align: center;
+}
+
+#iconX {
+    position: absolute;
+    top: 185px;
+    left: 790px;
+    width: 180px;
+    height: 180px;
+}
+
 #Cel{
 
 }
