@@ -98,9 +98,6 @@ a {text-decoration: none; color: black; }
     position: absolute;
 }
 
-
-
-
 header{
     display: flex;
     justify-content: space-between;
@@ -126,7 +123,6 @@ header{
 
 .titulo1 {
     left: 400px;
-    right: ;
     width: 1200px;
     height: 60px;
     position: absolute;
@@ -158,12 +154,13 @@ header{
 }
 
 .titulo2 {
-    left: 100px;
+    left: 65px;
     position: absolute;
     color: #FFFFFF;
     font-family: 'boldFont';
     font-size: 60px;
     text-align: center;
+    letter-spacing: 1.5px;
 }
 
 .textoRect2 {
@@ -193,6 +190,7 @@ header{
     font-family: 'boldFont';
     font-size: 60px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .textoRect3 {
@@ -213,6 +211,30 @@ header{
     height: 180px;
 }
 
+.Seccion4 {
+    top: 2955px;
+    left: 600px;
+    height: 125px;
+    position: absolute;
+    font-family: 'lightFont';
+    color: #FFFFFF;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+.texto4 {
+    position: absolute;
+    top: 3200px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    font-family: 'lightFont';
+    color: #FFFFFF;
+    font-size: 35px;
+    text-align: center;
+}
+
 #Cel{
 
 }
@@ -223,7 +245,7 @@ header{
 
 }
 
-/* .terminos{
+.terminos{
     top: 4088px;
     left: 543px;
     width: 831px;
@@ -231,6 +253,17 @@ header{
     position: absolute;
     color: #FFFFFF;
     font-family: 'lightFont';
-    font-size: ;
-} */
+    font-size: 20px;
+    text-align: center;
+}
+
+#term1 {position: absolute; left: 70px;}
+
+#term2 {position: absolute; left: 220px;}
+
+#term3 {position: absolute; left: 370px;}
+
+#term4 {position: absolute; left: 570px;}
+
+#term5 {position: absolute; left: 640px;}
 
