@@ -15,7 +15,7 @@ body {
 /*Posición del contenido multimedia en los contenedores */
 img {
     display: block;
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
     height: 100%;
     border-radius: 1rem;
@@ -29,6 +29,15 @@ img {
     width: 80vw;
     height: 100%;
 
-    gap: 2rem;
+    gap: 1rem;
 }
 
+/*Distribución de imágenes en cada contenedor*/
+.img1 {grid-column: 1/2; grid-row: 1/2}
+.img2 {grid-column: 2/3; grid-row: 1/2}
+.img3 {grid-column: 3/5; grid-row: 1/2}
+.img4 {grid-column: 1/1; grid-row: 2/4}
+.img5 {grid-column: 2/4; grid-row: 2/3}
+.img6 {grid-column: 4/5; grid-row: 2/3}
+.img7 {grid-column: 2/4; grid-row: 3/4}
+.img8 {grid-column: 4/5; grid-row: 3/4}
